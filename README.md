@@ -12,6 +12,12 @@ Demo *Random App* to illustrate some techniques on:
   - Infrastructure as Code
 
 
+## Variables de entorno para despliegue Terraform
+
+AWS_ACCESS_KEY_ID = identificador de acceso AWS
+AWS_SECRET_ACCESS_KEY = clave de acceso AWS
+PORTAINER_KEY = clave por defecto para configurar cuenta admin de Portainer
+
 ## Install
 
 ```sh
@@ -35,3 +41,4 @@ npm start
 ```sh
 ./docker-run.sh
 ```
+
