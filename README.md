@@ -14,9 +14,9 @@ Demo *Random App* to illustrate some techniques on:
 
 ## Variables de entorno para despliegue Terraform
 
-AWS_ACCESS_KEY_ID = identificador de acceso AWS
-AWS_SECRET_ACCESS_KEY = clave de acceso AWS
-PORTAINER_KEY = clave por defecto para configurar cuenta admin de Portainer
+ - AWS_ACCESS_KEY_ID = identificador de acceso AWS
+ - AWS_SECRET_ACCESS_KEY = clave de acceso AWS
+ - TF_VAR_PORTAINER_KEY = clave para configurar automáticamente cuenta admin de Portainer
 
 ## Install
 
